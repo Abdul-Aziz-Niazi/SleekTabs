@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SleekTabLayout">
+        <attr name="textColor" format="color" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="android:background" format="color" />
+        <attr name="fontSize" format="dimension" />
+        <attr name="selectedFontSize" format="dimension" />
+        <attr name="startingPosition" format="integer" />
+        <attr name="gestureEnabled" format="boolean" />
+        <attr name="android:orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="mode" format="enum">
+            <enum name="cozy" value="0" />
+            <enum name="compat" value="1" />
+            <enum name="jumbo" value="2" />
+        </attr>
+        <attr name="android:gravity" format="enum">
+            <enum name="bottom" value="0" />
+            <enum name="top" value="1" />
+            <enum name="start" value="1" />
+            <enum name="center" value="2" />
+        </attr>
+
+    </declare-styleable>
+</resources>
