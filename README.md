@@ -1,4 +1,7 @@
 # SleekTabs
+Tab Layouts that support both horizontal and vertical orientations, tab gestures different font size for selected and non-selected tabs.
+
+`min api level = 19`
 
 # Version
 
